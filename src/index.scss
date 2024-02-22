@@ -1,0 +1,14 @@
+ @use"./variables.scss" as mixin;
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: mixin.$primaryColor;
+  color:mixin.$primaryTextclor;
+  width: mixin.$desktopBreakpoints;
+  margin: 0 auto;
+}
